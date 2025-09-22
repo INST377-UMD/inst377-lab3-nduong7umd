@@ -1,0 +1,66 @@
+body {
+    background-color: aquamarine;
+}
+
+.bar {
+    text-align: center;
+    background-color: dimgray;
+    color: aliceblue;
+    padding: 2%;
+    margin: 10px;
+}
+
+nav ul {
+    list-style: none;        
+    margin: 0;
+    padding: 0;
+    display: flex;             
+    justify-content: center;
+}
+nav li {
+    margin: 0 15px;
+}
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+}
+nav a:hover {
+    color: yellow;
+}
+
+.content-area {
+    display: flex;
+    margin: 10px;
+}
+
+.main {
+    width: 65%;               
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 30%;              
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+.sidebar:hover {
+    background-color: gray;    
+}
+
+input[type="text"] {
+    width: 200px;
+    transition: width 0.3s;
+}
+input[type="text"]:focus {
+    width: 300px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
